@@ -1,14 +1,5 @@
 # See https://cloud.google.com/compute/docs/load-balancing/network/example
 
- put the install script on each destination resource"
-  default     = 7000
-}
-
-
-variable "private_key_path" {
-  description = "Path to file containing private key"
-  default     = "/home/ashwin/.ssh/modables-demo-bucket"
-}
 
 provider "google" {
   region      = "asia-east1"
